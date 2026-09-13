@@ -9,8 +9,10 @@ function doiTien(){
     let tu = document.getElementById("tu").value;
     let sang = document.getElementById("sang").value;
     let ketQua = tien / (menhGia[tu] * menhGia[sang]);
-    let ketQuaXuat = document.getElementById("xuatTien");
+    let ketQuaXuat = document.getElementById("xuatTiensss");
     ketQuaXuat.textContent = `${ ketQua }`;
+
+
 }
 
 
